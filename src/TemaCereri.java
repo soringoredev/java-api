@@ -20,7 +20,7 @@ public class TemaCereri {
 
             //Afisam raspunsul
             System.out.println("Status: " + response.statusCode());
-            System.out.println("Body: " + response.body());
+            System.out.println("Body: "   + response.body());
         }
 
         catch (Exception e) {
