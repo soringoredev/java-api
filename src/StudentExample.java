@@ -18,11 +18,30 @@ public class StudentExample {
             String raspunsUtilizator2 = scan.next();
             if (raspunsUtilizator2.equalsIgnoreCase("Da")) {
                 System.out.print("Creati numele grupei noi: ");
+                String grupa = scan.next();
+
+                System.out.print("Introduceti numele stuentului 1: ");
+                String student1 = scan.next();
+
+                System.out.print("Introduceti anul nasterii studentului: ");
+                int anNastere = scan.nextInt();
+
+                int current_year = 2025;
+
+                int varstaStudent = current_year - anNastere;
+
+                System.out.println("Student: " + student1 + " Varsta: " + varstaStudent);
+
+
+
+
+
+
+
             } else if ( raspunsUtilizator2.equalsIgnoreCase("Nu")){
                 System.out.println("La revedere!");
             } else {
                 System.out.println("Ati gresit ceva. Nu avem asa facultate la Universitatea noastra.");
-
             }
 
 
